@@ -76,6 +76,7 @@ section {
 .header-nav-item:not(:last-child) {
     margin-right: 50px;
 }
+
 .nav-list {
     font-weight: 500;
     font-size: var(--main-font);
@@ -84,7 +85,7 @@ section {
     display: flex;
     align-items: center;
     list-style: none;
-   }
+}
 
 .link-first {
    color: var(--second-color);
@@ -102,7 +103,7 @@ section {
     margin-left: auto;
     align-items: center;
     text-decoration: none;
-    }
+}
 
 .link-mail {
     font-family:var(--main-font);
@@ -182,7 +183,7 @@ section {
     list-style-type: none;
     display: flex;
     padding-bottom: 0;
-        }
+}
         
 .text:not(:last-child) {
     margin-right: 30px;
@@ -211,7 +212,8 @@ section {
 
     .profile {
         padding-top: 0px;
-    }
+}
+
 .our-profile, .our-team {
     font-weight: 700;
     font-size: 36px;
@@ -231,7 +233,6 @@ section {
 
 .team {
     background: #F5F4FA;
-    
 }
 
 .decision-pro {
@@ -260,6 +261,7 @@ section {
     display: block;
     text-align: center;
 }
+
 .name {
     font-weight: 500;
     font-size: 16px;
@@ -267,8 +269,8 @@ section {
     letter-spacing: var(--main-letter-spacing);
     color: var(--main-color);
     text-align: center;
-   
 }
+
 .profession {
     font-size: 16px;
     line-height: 1.19;
@@ -287,7 +289,7 @@ section {
     display: flex;
     text-align: center;
     justify-content: center;
-    }
+}
 
  .class-button:not(:last-child) {
     margin-right: 8px;
@@ -305,7 +307,7 @@ section {
     list-style: none;
     box-align: center;
     border-radius: 4px;
-   }
+}
 
 .progect-button-first {
     color: var(--accent-color);
@@ -329,7 +331,7 @@ section {
     border: 1px solid
 #F5F4FA;
     padding: 6px 22px;
-  }
+}
 .progect-button-second:hover,
 .progect-button-second:focus {
     color: var(--first-color);
@@ -372,12 +374,11 @@ section {
     background: #2F303A;
     display: block;
     padding: 60px 0;
-     }
+}
 
 .logo-footer {
     color: var(--accent-color);
     font-family: var(--second-font);
-    
 }
 .decision-footer {
     display: block;
