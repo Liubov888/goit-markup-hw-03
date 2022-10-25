@@ -293,8 +293,7 @@ section {
 
  .class-button:not(:last-child) {
     margin-right: 8px;
-     
- }
+}
 
 .progect-button-first, .progect-button-second {
     font-family: var(--main-font);
@@ -370,6 +369,7 @@ section {
 }
 
 /*footer*/
+
 .footer {
     background: #2F303A;
     display: block;
