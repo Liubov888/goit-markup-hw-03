@@ -109,6 +109,11 @@ section {
     font-family:var(--main-font);
     color: var(--second-color);
     text-decoration: none;
+    font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
     }
 .link-mail:hover,
 .link-mail:focus {
@@ -120,6 +125,11 @@ section {
     color: var(--first-color);
     margin-left: 50px;
     text-decoration: none;
+    font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
  }
  .link-tel:hover,
 .link-tel:focus {
