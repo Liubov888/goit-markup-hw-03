@@ -40,16 +40,19 @@ section {
        padding-top: 94px;
        padding-bottom: 94px;
    }
+
 /*header*/
 
-.header-container {
+.header {
+border-bottom: 1px solid #ECECEC;
+}
+
+.flex {
     display: flex;
     align-items: center;
     padding: 24px 0;
     text-decoration: none;
     list-style: none;
-    margin-bottom: 0px;
-    border-bottom: 1px solid #ECECEC;
 }
 
 .logo {
@@ -286,8 +289,7 @@ section {
     line-height: 1.19;
     letter-spacing: var(--main-letter-spacing);
     color: var(--first-color);
-    padding-top: 10px;
-    padding-bottom: 30px;
+    margin-top: 10px;
     text-align: center;
    }
 
@@ -356,16 +358,17 @@ section {
     padding-top: 50px;
 }
 
-.gallery {
+.card {
+    padding: 20px 24px;
     border: 1px solid #EEEEEE;
 }
+
 .example {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-color);
-    padding-top: 20px;
 }  
 
 .direction  {
@@ -374,8 +377,7 @@ section {
     line-height: 1.86;
     letter-spacing: var(--main-letter-spacing);
     color: var(--first-color);
-    padding-top: 4px;
-    padding-bottom: 20px;
+    margin-top: 4px;
 }
 
 /*footer*/
